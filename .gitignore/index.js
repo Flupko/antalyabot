@@ -6,4 +6,4 @@ bot.on('ready', function () {
   console.log("Je suis connecté !")
 })
 
-bot.login('NDM0NDEyOTg5NjE4MDYxMzMy.DbUBzA.olTkbv7cU5UVG72dGUIVRaI-7cA');
+bot.login(process.env.TOKEN);
