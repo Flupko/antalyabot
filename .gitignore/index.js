@@ -9,7 +9,19 @@ bot.on('ready', function () {
 bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
-  if (message.content === '!test') {
-    message.reply('test !')
+  if (message.content === 'Bonjour') {
+    message.reply('Bonjour')
+  }
+})
+
+bot.on('message', message => {
+  if (message.content === 'Salut') {
+    message.reply('Salut')
+  }
+})
+
+bot.on('message', message => {
+  if (message.content === 'Super bot') {
+    message.reply('Ce bot a été creer par @Jysse')
   }
 })
