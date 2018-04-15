@@ -22,6 +22,6 @@ bot.on('message', message => {
 
 bot.on('message', message => {
   if (message.content === 'Super bot') {
-    message.reply('Ce bot a été creer par @Jysse')
+    message.reply('Ce bot a été creer par 🔥Jysse🔥')
   }
 })
