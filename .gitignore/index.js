@@ -23,3 +23,11 @@ bot.on('message', function(message) {
   }
    
 });
+
+bot.on("message", async function(message) {
+
+  case "!ping":
+   message.channel.sendMessage("Pong! Tu as actuellement `" + bot.ping + " ms !` :D");
+   message.delete();
+   break;
+});
