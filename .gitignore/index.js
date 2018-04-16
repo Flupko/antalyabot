@@ -21,13 +21,11 @@ bot.on('message', function(message) {
   if(message.content === 'Qui est la') {
       message.channel.sendMessage("MOIII")
   }
+  
+   if(message.content === '!ping') {
+      message.channel.sendMessage("Pong! Tu as actuellement `" + bot.ping + " ms !` :D");
+      message.delete();
+      break;
+   }
    
-});
-
-bot.on("message", async function(message) {
-
-  case "!ping":
-   message.channel.sendMessage("Pong! Tu as actuellement `" + bot.ping + " ms !` :D");
-   message.delete();
-   break;
 });
