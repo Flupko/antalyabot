@@ -22,7 +22,7 @@ bot.on('message', function(message) {
       message.channel.sendMessage("MOIII")
   }
   
-});
+})
 
 bot.on('message', message => {
 
