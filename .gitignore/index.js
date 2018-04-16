@@ -22,10 +22,4 @@ bot.on('message', function(message) {
       message.channel.sendMessage("MOIII")
   }
   
-   if(message.content === '!ping') {
-      message.channel.sendMessage("Pong! Tu as actuellement `" + bot.ping + " ms !` :D");
-      message.delete();
-      break;
-   }
-   
 });
